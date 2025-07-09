@@ -1,5 +1,6 @@
 import Badge from "./components/badge";
 import Button from "./components/button";
+import InputText from "./components/input-text";
 import Text from "./components/text";
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <Button>Nova Tarefa</Button>
       <Badge variant="secondary">5</Badge>
       <Badge>2 de 5</Badge>
+        <InputText />
     </div>
   )
 }
