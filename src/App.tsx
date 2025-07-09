@@ -1,3 +1,4 @@
+import Badge from "./components/badge";
 import Button from "./components/button";
 import Text from "./components/text";
 
@@ -9,7 +10,8 @@ export default function App() {
       <Text variant={"body-md"}>Hello World</Text>
       <Text variant={"body-sm"}>Hello World</Text>
       <Button>Nova Tarefa</Button>
+      <Badge variant="secondary">5</Badge>
+      <Badge>2 de 5</Badge>
     </div>
   )
 }
-
