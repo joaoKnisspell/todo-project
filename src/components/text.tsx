@@ -2,7 +2,7 @@ import React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 
 interface TextProps extends VariantProps<typeof textVariants> {
-    as?: string;
+    as?: keyof React.JSX.IntrinsicElements;
     children?: React.ReactNode;
     className?: string;
 }
