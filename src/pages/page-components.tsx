@@ -5,6 +5,7 @@ import Container from "../components/container";
 import InputText from "../components/input-text";
 import Skeleton from "../components/skeleton";
 import Text from "../components/text";
+import TasksSummary from "../core-components/tasks-summary";
 
 export default function PageComponents() {
 	return (
@@ -25,6 +26,9 @@ export default function PageComponents() {
 				<Skeleton rounded="full" className="h-5 w-5" />
 				<Skeleton rounded="full" className="h-5 w-5" />
 			</div>
+			<header className="flex items-center justify-between">
+				<TasksSummary />
+			</header>
 		</Container>
 	);
 }
