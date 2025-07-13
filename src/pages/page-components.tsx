@@ -1,13 +1,13 @@
-import { NavLink } from "react-router";
 import Badge from "../components/badge";
 import Button from "../components/button";
 import Card from "../components/card";
+import Container from "../components/container";
 import InputText from "../components/input-text";
 import Text from "../components/text";
 
 export default function PageComponents() {
 	return (
-		<div className="flex flex-col gap-2">
+		<Container className="flex flex-col gap-2" size="md">
 			<Text variant={"body-md-bold"}>Hello World</Text>
 			<Text variant={"body-md"}>Hello World</Text>
 			<Text variant={"body-sm"}>Hello World</Text>
@@ -16,7 +16,6 @@ export default function PageComponents() {
 			<Badge>2 de 5</Badge>
 			<InputText />
 			<Card size="md"></Card>
-			<NavLink to="/">Home</NavLink>
-		</div>
+		</Container>
 	);
 }
