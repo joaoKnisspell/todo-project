@@ -1,10 +1,7 @@
-import { NavLink } from "react-router";
+import MainContent from "../core-components/main-content";
 
 export default function PageHome() {
     return(
-        <>
-            <h1>Hello World!</h1>
-            <NavLink to="/componentes">Componentes</NavLink>
-        </>
+        <MainContent />
     )
 }
