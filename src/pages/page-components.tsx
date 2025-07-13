@@ -1,6 +1,7 @@
 import { NavLink } from "react-router";
 import Badge from "../components/badge";
 import Button from "../components/button";
+import Card from "../components/card";
 import InputText from "../components/input-text";
 import Text from "../components/text";
 
@@ -14,6 +15,7 @@ export default function PageComponents() {
 			<Badge variant="secondary">5</Badge>
 			<Badge>2 de 5</Badge>
 			<InputText />
+			<Card size="md"></Card>
 			<NavLink to="/">Home</NavLink>
 		</div>
 	);
