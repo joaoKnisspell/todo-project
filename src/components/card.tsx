@@ -5,7 +5,7 @@ const cardVariants = cva("bg-white rounded-lg shadow-sm border border-solid bord
 	variants: {
 		size: {
 			none: "",
-			md: "p-5",
+			md: "p-5 max-h-16",
 		},
 	},
 	defaultVariants: {
